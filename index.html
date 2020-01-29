@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>DevFest Ilorin</title>
+    <title>AMP Challenges</title>
 
     <link rel="canonical" href="start.html">
     <!-- viewPort -->
@@ -15,7 +15,7 @@
     <!-- amp sript  -->
     <script async src="https://cdn.ampproject.org/v0.js"></script>
 
-    <!-- amp Components -->
+    <!-- You can enable amp story components bellow -->
 
     <!-- Amp Story -->
     <!-- <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script> -->
@@ -25,54 +25,76 @@
 
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
 
-    <!-- dedicated css  -->
+    <!-- customise your css below -->
     <style amp-custom>
-      amp-story {
-        font-family: 'Oswald',sans-serif;
-        color: #fff;
-      }
-      amp-story-page {
-        background-color: #000;
-      }
-      h1 {
-        font-weight: bold;
-        font-size: 2.875em;
-        font-weight: normal;
-        line-height: 1.174;
-      }
-      p {
-        font-weight: normal;
-        font-size: 1.3em;
-        line-height: 1.5em;
-        color: #fff;
-      }
-      q {
-        font-weight: 300;
-        font-size: 1.1em;
-      }
-      amp-story-grid-layer.bottom {
-        align-content:end;
-      }
-      amp-story-grid-layer.noedge {
-        padding: 0px;
-      }
-      amp-story-grid-layer.center-text {
-        align-content: center;
-      }
-      .wrapper {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50%;
-      }
-      .banner-text {
-        text-align: center;
-        background-color: #000;
-        line-height: 2em;
-      }
+      
     </style>
 
   </head>
   <body>
      
+    <!-- Amp Story Starts Here -->
+    <amp-story standalone
+      title=""
+      publisher=""
+      publisher-logo-src="assets/AMP-Brand-White-Icon.svg"
+      poster-portrait-src="">
+      
+      <!-- This is a first page -->
+      <amp-story-page id="page3">
+        
+        <amp-story-grid-layer template="fill">
+
+        <!-- Amp Video starts here -->
+
+          <!-- <amp-video autoplay loop
+          poster= ""
+          width=""
+          height=""
+          layout="responsive">     
+          <source src="" type="video/mp4">
+          </amp-video> -->
+
+        <!-- Amp Video starts here -->
+
+        </amp-story-grid-layer>
+
+        <amp-story-grid-layer template="vertical">
+        
+          <!-- Type content here -->
+
+        </amp-story-grid-layer>
+
+      </amp-story-page>
+      
+      <!-- second page -->
+      <amp-story-page id="cover">
+          <amp-story-grid-layer template="fill">
+          
+            <!-- Amp Image start -->
+
+            <amp-img src=""
+              width=""
+              height=""
+              layout=""
+              alt="">
+            </amp-img>
+
+          <!-- Amp Image Ends -->
+
+          </amp-story-grid-layer>
+
+          <amp-story-grid-layer template="vertical">
+            <!-- text goes here -->
+          </amp-story-grid-layer>
+          
+      </amp-story-page>
+
+      <!-- You may add as meny pages as you want -->
+
+    </amp-story>
+
+    <!-- Amp story ends here -->
+
   </body>
 </html>
