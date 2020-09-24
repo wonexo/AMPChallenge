@@ -10,3 +10,6 @@
 > To know more about amp stories you can [check here](https://amp.dev/about/stories/), or visit the [website guide](https://amp.dev/documentation/guides-and-tutorials/) to learn how to use AMP.
 > You may can Star it if you like the challenge 😏 :grin:
 > View example of an [AMP Story](https://wonexo.github.io/DevFest-AMPDEMO/amp-devfest/finish) and [repo](https://github.com/wonexo/DevFest-AMPDEMO).
+
+
+Just smile
